@@ -12,7 +12,7 @@
 
 
 
-<link href="../assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -79,44 +79,43 @@
       <div class="container fs-5">
         <div class="row">
           <div class="col-md-4">
-            <label for="inputFirma14" class="form-label">Firma:</label>
-            <input type="Name_Firma" class="form-control" id="inputFirma14">
+            <label for="input_firma" class="form-label">Firma:</label>
+            <input type="Name_Firma" class="form-control" id="input_firma" name="firma" >
           </div>
           <div class="col-md-4">
-            <label for="inputDate" class="form-label">Data:</label>
-            <input type="Date" class="form-control" id="inputDate">
+            <label for="input_date" class="form-label">Data:</label>
+            <input type="Date" class="form-control" id="input_date" name="date">
           </div>
           <div class="col-md-4">
-            <label for="inputnúmero_" class="form-label">N°</label>
-            <input type="Númerofirma" class="form-control" id="inputnúmero_">
+            <label for="input_numero" class="form-label">N°</label>
+            <input type="Númerofirma" class="form-control" id="input_numero" name="numero" >
           </div>
           </div>
         </div>
-      </div>
+    
 
       <div class="container fs-5">
           <div class="row">
             <div class="col-md-6">
-              <label for="inputAddress" class="form-label">Endereço:</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Rua do Francês,750">
+              <label for="input_address" class="form-label">Endereço:</label>
+              <input type="text" class="form-control" id="input_address" placeholder="Rua do Francês,750" name="endereco" >
             </div>
             <div class="col-md-6">
-              <label for="inputComplemento" class="form-label">Complemento:</label>
-              <input type="text" class="form-control" id="inputComplemento" placeholder="Nº 750,Ao lado do cefet">
+              <label for="input_complemento" class="form-label">Complemento:</label>
+              <input type="text" class="form-control" id="input_complemento" placeholder="Nº 750,Ao lado do cefet" name="complemento">
           </div>
           </div>
         </div>
-      </div>
           
       <div class="container fs-5">
           <div class="row">
             <div class="col-md-3">
-              <label for="inputCity" class="form-label">Bairro:</label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="input_bairro" class="form-label">Bairro:</label>
+              <input type="text" class="form-control" id="input_bairro" name="bairro" >
             </div>
             <div class="col-md-5">
-              <label for="inputCity" class="form-label">Cidade:</label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="input_city" class="form-label">Cidade:</label>
+              <input type="text" class="form-control" id="input_city" name="city" >
             </div>
             <div class="col-md-4">
                 <label for="inputEstado" class="form-label">Estado</label>
@@ -154,40 +153,37 @@
             </div>
             </div>
           </div>
-        </div>
 
         <div class="container fs-5">
           <div class="row">
             <div class="col-md-4">
-              <label for="inputCEP" class="form-label">CEP:</label>
-              <input type="text" class="form-control" id="input_CEP" placeholder="Preencha com o CEP">
+              <label for="input_cep" class="form-label">CEP:</label>
+              <input type="text" class="form-control" id="input_cep" placeholder="Preencha com o CEP" name="cep">
             </div>
             <div class="col-md-4">
-              <label for="inputCNPJ" class="form-label">CNPJ:</label>
-              <input type="text" class="form-control" id="inputCNPJ" placeholder="Preencha com o CNPJ">
+              <label for="input_cnpj" class="form-label">CNPJ:</label>
+              <input type="text" class="form-control" id="input_cnpj" placeholder="Preencha com o CNPJ" name="cnpj">
             </div>
             <div class="col-md-4">
-              <label for="inputINSCR" class="form-label">Inscrição:</label>
-              <input type="text" class="form-control" id="inputINSCR"> 
+              <label for="input_inscr" class="form-label">Inscrição:</label>
+              <input type="text" class="form-control" id="input_inscr" name="inscricao"> 
             </div>
             </div>
           </div>
-        </div>
           
         <div class="container fs-5">
           <div class="row">
             <div class="col-md-4">
-              <label for="input_Telefone" class="form-label">Telefone:</label>
-              <input type="text" class="form-control" id="input_Telefone">
+              <label for="input_telefone" class="form-label">Telefone:</label>
+              <input type="text" class="form-control" id="input_telefone" name="telefone">
             </div>
             <div class="col-md-4">
-              <label for="input_Celular" class="form-label">Celular:</label>
-              <input type="text" class="form-control" id="input_Celular">
+              <label for="input_celular" class="form-label">Celular:</label>
+              <input type="text" class="form-control" id="input_celular" name="celular">
             </div>
             <div class="col-md-4">
-              <label for="input_EMail" class="form-label">Email:</label>
-              <input type="text" class="form-control" id="input_EMail">
-            </div>
+              <label for="input_email" class="form-label">Email:</label>
+              <input type="text" class="form-control" id="input_email" name="email">
             </div>
           </div>
         </div>
@@ -195,21 +191,20 @@
       <div class="container fs-5">
         <div class="row">
           <div class="col-md-12">    
-              <label for="inputOBS" class="form-label">OBS:</label>
-          </div>
-            <div class="row">
-              <div class="col-md-12">
-                <textarea class="message" name="Observações" id="Observações"></textarea>
-              </div>
+              <label for="input_obs" class="form-label">OBS:</label> 
+              <textarea class="form-control" name="observacoes" id="input_obs"></textarea>
           </div>
         </div>
-        <div class="col-12">
+      </div>
+      
+      <div class="container fs-5 pt-4 ">
+        <div class="row">
+          <div class="col-md-12">   
           <button class="btn btn-primary" type="submit">Enviar Formulário</button>
         </div>
-      </form>
-        
+      </div>
+    </div>
 </main>
-
 
 
 <footer class="text-muted py-5">
