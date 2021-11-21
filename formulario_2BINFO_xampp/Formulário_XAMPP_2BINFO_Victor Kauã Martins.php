@@ -1,5 +1,5 @@
-<!doctype html>
 <html>
+<form action="Formulário_Victor Kauã_Save.php" method="post">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-md-4">
             <label for="input_firma" class="form-label">Firma:</label>
-            <input type="Name_Firma" class="form-control" id="input_firma" name="firma" >
+            <input type="Name_Firma" class="form-control" id="input_firma" name="firma">
           </div>
           <div class="col-md-4">
             <label for="input_date" class="form-label">Data:</label>
@@ -119,7 +119,7 @@
             </div>
             <div class="col-md-4">
                 <label for="inputEstado" class="form-label">Estado</label>
-                <select id="inputEstado" class="form-select">
+                <select id="inputEstado" class="form-select" name="estado">
                   <option selected></option>
                   <option value="AC">Acre</option>
                   <option value="AL">Alagoas</option>
@@ -200,7 +200,7 @@
       <div class="container fs-5 pt-4 ">
         <div class="row">
           <div class="col-md-12">   
-          <button class="btn btn-primary" type="submit">Enviar Formulário</button>
+          <input class="btn btn-primary" type="submit" value="Enviar Formulário">
         </div>
       </div>
     </div>
@@ -223,4 +223,7 @@
 
       
   </body>
+  </form>
 </html>
+
+
